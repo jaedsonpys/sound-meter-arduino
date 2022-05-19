@@ -9,11 +9,14 @@ const int oneRedPin = 11;
 const int twoRedPin = 12;
 
 void setup() {
-  // put your setup code here, to run once:
+  // pinMode of leds
+  for(int i = 8; i < 13; i++) {
+    pinMode(i, OUTPUT);
+  }
 
+  pinMode(soundSensorPin, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
 }
