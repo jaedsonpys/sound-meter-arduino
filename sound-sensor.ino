@@ -14,7 +14,7 @@ void setup() {
     pinMode(i, OUTPUT);
   }
 
-  pinMode(soundSensorPin, OUTPUT);
+  pinMode(soundSensorPin, INPUT);
 }
 
 void loop() {
